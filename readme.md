@@ -9,3 +9,9 @@ All of the files included in the .zip file (available to Plus subscribers) shoul
 Initializing a Git repo and making a remote of it on GitHub are explained in Module 2 of the course.
 
 The viewer should have Git installed and have a GitHub account.
+
+Notes:
+
+The following must be used as a value for DOCKER_HUB_TRIGGER environment variable in the Cirle CI tool
+
+curl -H "Content-Type:application/json" --data {"build":true} -X POST https://registry.hub.docker.com/u/sanjaymodha/docker-ci/trigger/1c7d9860-f78b-4c9c-b673-1555adc0f8fd/
